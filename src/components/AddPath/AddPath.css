@@ -1,0 +1,8 @@
+.add-path {
+    display: flex;
+    justify-content: center;
+}
+
+.forms {
+    border-right: grey solid 1px;
+}
