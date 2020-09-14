@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import AddPath from './components/AddPath';
 import RoadList from './components/RoadList';
+import MapInfo from './components/MapInfo';
 import './App.css';
 
 
@@ -19,8 +20,9 @@ class App extends React.Component {
           <Col className="text-right" xs={6} md={6}> <AddPath /> </Col>
         </Row>
         <hr />
-        <Row className="row vdivide">
-          <Col className="col-xs-6" xs={6} md={6}> <RoadList /> </Col>
+        <Row >
+          <Col className="road-list" xs={6} md={6}> <RoadList /> </Col>
+          <Col xs={6} md={6}> <MapInfo /> </Col>
         </Row>
       </Container>
     )
