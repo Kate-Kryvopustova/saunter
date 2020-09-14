@@ -1,8 +1,9 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import AddPath from './components/AddPath'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import AddPath from './components/AddPath';
+import RoadList from './components/RoadList';
 import './App.css';
 
 
@@ -18,6 +19,9 @@ class App extends React.Component {
           <Col className="text-right" xs={6} md={6}> <AddPath /> </Col>
         </Row>
         <hr />
+        <Row className="row vdivide">
+          <Col className="col-xs-6" xs={6} md={6}> <RoadList /> </Col>
+        </Row>
       </Container>
     )
   }

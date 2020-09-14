@@ -80,4 +80,4 @@ function AddPath() {
 }
 
 
-export default Example;
+export default AddPath;
