@@ -10,6 +10,6 @@
 
 ## Процесс разработки
 1. Реализация мокапов приложения -  Я туть :)
-[![meme](//memes/74e75cb1848e18e5818d55ec73ac4870.jpg)](https://www.meme-arsenal.com/)
+[![meme](https://www.meme-arsenal.com/memes/74e75cb1848e18e5818d55ec73ac4870.jpg)](https://www.meme-arsenal.com/)
 2. Добавление логики со стороны фронт-енд, взаимосвязь компонентов и финализация мокапов
 3. Сохранение данных в Firebase
